@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA95E938-8B9A-4B50-8DE7-671694328A23</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Chart Kit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>39639A1B211EF0C475E59A1469A9ED3CA74ABE6B</key>
+		<string>https://github.com/china-maid/ChartKit</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Chart Kit/Chart Kit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>39639A1B211EF0C475E59A1469A9ED3CA74ABE6B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/china-maid/ChartKit</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>39639A1B211EF0C475E59A1469A9ED3CA74ABE6B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>39639A1B211EF0C475E59A1469A9ED3CA74ABE6B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChartKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

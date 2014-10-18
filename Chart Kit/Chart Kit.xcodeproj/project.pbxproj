@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67A89F7119DA12D100EF4044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89F7019DA12D100EF4044 /* AppDelegate.swift */; };
+		67A89F7319DA12D100EF4044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89F7219DA12D100EF4044 /* ViewController.swift */; };
+		67A89F7619DA12D100EF4044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A89F7419DA12D100EF4044 /* Main.storyboard */; };
+		67A89F7819DA12D100EF4044 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A89F7719DA12D100EF4044 /* Images.xcassets */; };
+		67A89F7B19DA12D100EF4044 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67A89F7919DA12D100EF4044 /* LaunchScreen.xib */; };
+		67A89F8719DA12D100EF4044 /* Chart_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89F8619DA12D100EF4044 /* Chart_KitTests.swift */; };
+		67A89F9519DA197C00EF4044 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89F9419DA197C00EF4044 /* BarChart.swift */; };
+		67A89F9719DA199F00EF4044 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89F9619DA199F00EF4044 /* PieChart.swift */; };
+		67A89F9919DA1A0B00EF4044 /* ScatterChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89F9819DA1A0B00EF4044 /* ScatterChart.swift */; };
+		67A89F9B19DA1A1800EF4044 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89F9A19DA1A1800EF4044 /* LineChart.swift */; };
+		67A89F9D19DA1ACD00EF4044 /* Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89F9C19DA1ACD00EF4044 /* Histogram.swift */; };
+		67A89F9F19DA1AE000EF4044 /* ComboChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89F9E19DA1AE000EF4044 /* ComboChart.swift */; };
+		67A89FA119DA1B1700EF4044 /* AreaChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89FA019DA1B1700EF4044 /* AreaChart.swift */; };
+		67A89FA419DA1B3F00EF4044 /* design in Resources */ = {isa = PBXBuildFile; fileRef = 67A89FA219DA1B3F00EF4044 /* design */; };
+		67A89FA719DA1B6900EF4044 /* SteppedAreaChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89FA619DA1B6900EF4044 /* SteppedAreaChart.swift */; };
+		67A89FA919DA1B8200EF4044 /* BubbleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89FA819DA1B8200EF4044 /* BubbleChart.swift */; };
+		67A89FAB19DA1B9300EF4044 /* Treemap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89FAA19DA1B9300EF4044 /* Treemap.swift */; };
+		67A89FAD19DA1BA700EF4044 /* CandlestickChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89FAC19DA1BA700EF4044 /* CandlestickChart.swift */; };
+		67A89FAF19DA1BBA00EF4044 /* DonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A89FAE19DA1BBA00EF4044 /* DonutChart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67A89F8119DA12D100EF4044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A89F6319DA12D100EF4044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A89F6A19DA12D100EF4044;
+			remoteInfo = "Chart Kit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67A89F6B19DA12D100EF4044 /* Chart Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chart Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A89F6F19DA12D100EF4044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A89F7019DA12D100EF4044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67A89F7219DA12D100EF4044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67A89F7519DA12D100EF4044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67A89F7719DA12D100EF4044 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67A89F7A19DA12D100EF4044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		67A89F8019DA12D100EF4044 /* Chart KitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chart KitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A89F8519DA12D100EF4044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A89F8619DA12D100EF4044 /* Chart_KitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_KitTests.swift; sourceTree = "<group>"; };
+		67A89F9419DA197C00EF4044 /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		67A89F9619DA199F00EF4044 /* PieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		67A89F9819DA1A0B00EF4044 /* ScatterChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterChart.swift; sourceTree = "<group>"; };
+		67A89F9A19DA1A1800EF4044 /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		67A89F9C19DA1ACD00EF4044 /* Histogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Histogram.swift; sourceTree = "<group>"; };
+		67A89F9E19DA1AE000EF4044 /* ComboChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComboChart.swift; sourceTree = "<group>"; };
+		67A89FA019DA1B1700EF4044 /* AreaChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaChart.swift; sourceTree = "<group>"; };
+		67A89FA219DA1B3F00EF4044 /* design */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = design; sourceTree = "<group>"; };
+		67A89FA619DA1B6900EF4044 /* SteppedAreaChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SteppedAreaChart.swift; sourceTree = "<group>"; };
+		67A89FA819DA1B8200EF4044 /* BubbleChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleChart.swift; sourceTree = "<group>"; };
+		67A89FAA19DA1B9300EF4044 /* Treemap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Treemap.swift; sourceTree = "<group>"; };
+		67A89FAC19DA1BA700EF4044 /* CandlestickChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandlestickChart.swift; sourceTree = "<group>"; };
+		67A89FAE19DA1BBA00EF4044 /* DonutChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A89F6819DA12D100EF4044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A89F7D19DA12D100EF4044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6754938B19DF01D700CD179C /* Basic Chart Compoenet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Basic Chart Compoenet";
+			sourceTree = "<group>";
+		};
+		67A89F6219DA12D100EF4044 = {
+			isa = PBXGroup;
+			children = (
+				67A89F6D19DA12D100EF4044 /* Chart Kit */,
+				67A89F8319DA12D100EF4044 /* Chart KitTests */,
+				67A89F6C19DA12D100EF4044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67A89F6C19DA12D100EF4044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A89F6B19DA12D100EF4044 /* Chart Kit.app */,
+				67A89F8019DA12D100EF4044 /* Chart KitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A89F6D19DA12D100EF4044 /* Chart Kit */ = {
+			isa = PBXGroup;
+			children = (
+				67A89FA219DA1B3F00EF4044 /* design */,
+				67A89F9319DA132D00EF4044 /* Sample */,
+				67A89F9219DA131A00EF4044 /* Utility */,
+				6754938B19DF01D700CD179C /* Basic Chart Compoenet */,
+				67A89F9119DA12F000EF4044 /* Advanced Chart */,
+				67A89F9019DA12DE00EF4044 /* Basic Chart */,
+				67A89F6E19DA12D100EF4044 /* Supporting Files */,
+			);
+			path = "Chart Kit";
+			sourceTree = "<group>";
+		};
+		67A89F6E19DA12D100EF4044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67A89F7019DA12D100EF4044 /* AppDelegate.swift */,
+				67A89F7719DA12D100EF4044 /* Images.xcassets */,
+				67A89F7919DA12D100EF4044 /* LaunchScreen.xib */,
+				67A89F6F19DA12D100EF4044 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67A89F8319DA12D100EF4044 /* Chart KitTests */ = {
+			isa = PBXGroup;
+			children = (
+				67A89F8619DA12D100EF4044 /* Chart_KitTests.swift */,
+				67A89F8419DA12D100EF4044 /* Supporting Files */,
+			);
+			path = "Chart KitTests";
+			sourceTree = "<group>";
+		};
+		67A89F8419DA12D100EF4044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67A89F8519DA12D100EF4044 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67A89F9019DA12DE00EF4044 /* Basic Chart */ = {
+			isa = PBXGroup;
+			children = (
+				67A89F9419DA197C00EF4044 /* BarChart.swift */,
+				67A89F9619DA199F00EF4044 /* PieChart.swift */,
+				67A89F9819DA1A0B00EF4044 /* ScatterChart.swift */,
+				67A89F9A19DA1A1800EF4044 /* LineChart.swift */,
+				67A89F9C19DA1ACD00EF4044 /* Histogram.swift */,
+				67A89F9E19DA1AE000EF4044 /* ComboChart.swift */,
+				67A89FA019DA1B1700EF4044 /* AreaChart.swift */,
+				67A89FA619DA1B6900EF4044 /* SteppedAreaChart.swift */,
+				67A89FA819DA1B8200EF4044 /* BubbleChart.swift */,
+				67A89FAA19DA1B9300EF4044 /* Treemap.swift */,
+				67A89FAC19DA1BA700EF4044 /* CandlestickChart.swift */,
+				67A89FAE19DA1BBA00EF4044 /* DonutChart.swift */,
+			);
+			name = "Basic Chart";
+			sourceTree = "<group>";
+		};
+		67A89F9119DA12F000EF4044 /* Advanced Chart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Advanced Chart";
+			sourceTree = "<group>";
+		};
+		67A89F9219DA131A00EF4044 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		67A89F9319DA132D00EF4044 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				67A89F7219DA12D100EF4044 /* ViewController.swift */,
+				67A89F7419DA12D100EF4044 /* Main.storyboard */,
+			);
+			name = Sample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67A89F6A19DA12D100EF4044 /* Chart Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A89F8A19DA12D100EF4044 /* Build configuration list for PBXNativeTarget "Chart Kit" */;
+			buildPhases = (
+				67A89F6719DA12D100EF4044 /* Sources */,
+				67A89F6819DA12D100EF4044 /* Frameworks */,
+				67A89F6919DA12D100EF4044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chart Kit";
+			productName = "Chart Kit";
+			productReference = 67A89F6B19DA12D100EF4044 /* Chart Kit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67A89F7F19DA12D100EF4044 /* Chart KitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A89F8D19DA12D100EF4044 /* Build configuration list for PBXNativeTarget "Chart KitTests" */;
+			buildPhases = (
+				67A89F7C19DA12D100EF4044 /* Sources */,
+				67A89F7D19DA12D100EF4044 /* Frameworks */,
+				67A89F7E19DA12D100EF4044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A89F8219DA12D100EF4044 /* PBXTargetDependency */,
+			);
+			name = "Chart KitTests";
+			productName = "Chart KitTests";
+			productReference = 67A89F8019DA12D100EF4044 /* Chart KitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A89F6319DA12D100EF4044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Maid in China";
+				TargetAttributes = {
+					67A89F6A19DA12D100EF4044 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					67A89F7F19DA12D100EF4044 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 67A89F6A19DA12D100EF4044;
+					};
+				};
+			};
+			buildConfigurationList = 67A89F6619DA12D100EF4044 /* Build configuration list for PBXProject "Chart Kit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67A89F6219DA12D100EF4044;
+			productRefGroup = 67A89F6C19DA12D100EF4044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67A89F6A19DA12D100EF4044 /* Chart Kit */,
+				67A89F7F19DA12D100EF4044 /* Chart KitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67A89F6919DA12D100EF4044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A89FA419DA1B3F00EF4044 /* design in Resources */,
+				67A89F7619DA12D100EF4044 /* Main.storyboard in Resources */,
+				67A89F7B19DA12D100EF4044 /* LaunchScreen.xib in Resources */,
+				67A89F7819DA12D100EF4044 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A89F7E19DA12D100EF4044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67A89F6719DA12D100EF4044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A89F7319DA12D100EF4044 /* ViewController.swift in Sources */,
+				67A89F9719DA199F00EF4044 /* PieChart.swift in Sources */,
+				67A89FA919DA1B8200EF4044 /* BubbleChart.swift in Sources */,
+				67A89FAF19DA1BBA00EF4044 /* DonutChart.swift in Sources */,
+				67A89F9B19DA1A1800EF4044 /* LineChart.swift in Sources */,
+				67A89FA719DA1B6900EF4044 /* SteppedAreaChart.swift in Sources */,
+				67A89F9919DA1A0B00EF4044 /* ScatterChart.swift in Sources */,
+				67A89FAB19DA1B9300EF4044 /* Treemap.swift in Sources */,
+				67A89FAD19DA1BA700EF4044 /* CandlestickChart.swift in Sources */,
+				67A89F9519DA197C00EF4044 /* BarChart.swift in Sources */,
+				67A89F9F19DA1AE000EF4044 /* ComboChart.swift in Sources */,
+				67A89FA119DA1B1700EF4044 /* AreaChart.swift in Sources */,
+				67A89F7119DA12D100EF4044 /* AppDelegate.swift in Sources */,
+				67A89F9D19DA1ACD00EF4044 /* Histogram.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A89F7C19DA12D100EF4044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A89F8719DA12D100EF4044 /* Chart_KitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67A89F8219DA12D100EF4044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A89F6A19DA12D100EF4044 /* Chart Kit */;
+			targetProxy = 67A89F8119DA12D100EF4044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67A89F7419DA12D100EF4044 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A89F7519DA12D100EF4044 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67A89F7919DA12D100EF4044 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A89F7A19DA12D100EF4044 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67A89F8819DA12D100EF4044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67A89F8919DA12D100EF4044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67A89F8B19DA12D100EF4044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chart Kit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67A89F8C19DA12D100EF4044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chart Kit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67A89F8E19DA12D100EF4044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chart KitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chart Kit.app/Chart Kit";
+			};
+			name = Debug;
+		};
+		67A89F8F19DA12D100EF4044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chart KitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chart Kit.app/Chart Kit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67A89F6619DA12D100EF4044 /* Build configuration list for PBXProject "Chart Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A89F8819DA12D100EF4044 /* Debug */,
+				67A89F8919DA12D100EF4044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A89F8A19DA12D100EF4044 /* Build configuration list for PBXNativeTarget "Chart Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A89F8B19DA12D100EF4044 /* Debug */,
+				67A89F8C19DA12D100EF4044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A89F8D19DA12D100EF4044 /* Build configuration list for PBXNativeTarget "Chart KitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A89F8E19DA12D100EF4044 /* Debug */,
+				67A89F8F19DA12D100EF4044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67A89F6319DA12D100EF4044 /* Project object */;
+}
